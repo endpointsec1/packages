@@ -17,4 +17,4 @@ jobs:
       - name: Stop Splunk Forwarder service
         shell: powershell
         run: |
-          Stop-Service -Name SplunkForwarder
+          Start-Service -Name SplunkForwarder
